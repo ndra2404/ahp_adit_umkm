@@ -49,11 +49,11 @@ $db = $config->getConnection();
 			<?php
 			if( $_SESSION['role']=='admin'){
 			?>
-			<li><a href="nilai.php">Nilai</a></li>
-			<li><a href="kriteria.php">Kriteria</a></li>
-			<li><a href="alternatif.php">Alternatif</a></li>
-			<li><a href="analisa-kriteria.php">Analisa Kriteria</a></li>
-			<li><a href="analisa-alternatif.php">Analisa Alternatif</a></li>
+			<li><a href="nilai.php">Skala penilaian</a></li>
+			<li><a href="kriteria.php">Tahapan Recuritmen</a></li>
+			<li><a href="alternatif.php">Data Kandidat Karyawan</a></li>
+			<li><a href="analisa-kriteria.php">Analisa Tahapan Recuritmen</a></li>
+			<li><a href="analisa-alternatif.php">Analisa Kandidat Karyawan</a></li>
 			<li><a href="rangking.php">Rangking</a></li>
 			<li><a href="laporan-cetak.php">Laporan</a></li>
 			<?php
